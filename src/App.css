@@ -1,0 +1,93 @@
+/* General reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e1e1ee;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.main {
+  background-color: #b2afaf;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 700px;
+  height: 600px;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 24px;
+  color: #4a4a9d;
+  margin-bottom: 20px;
+}
+
+/* Input wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Input field */
+.textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #e2dada;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #e1e1e8;
+}
+
+.textarea:focus {
+  border-color: #4a4a9d;
+}
+
+/* Button */
+.btn {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4a4a9d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3b3b85;
+}
+
+/* Output area */
+.output {
+  background-color: #ddd4d4;
+  border: 2px dashed #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #666;
+  height: 350px;
+  overflow-y: auto;
+  word-wrap: break-word;
+  text-align: left;
+}
+/* App.css */
+.generated-image {
+  max-width: 300px; /* Set the maximum width */
+  height: auto;     /* Maintain the aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  margin-top: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 150px;
+}
+/* App.css */
+

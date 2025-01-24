@@ -43,7 +43,7 @@ function App() {
   return (
     <>
     <div className="main">
-      <h1>TEXT TO IMAGE GENERATOR</h1>
+      <h1>!TEXT TO IMAGE GENERATOR!</h1>
       <div className="wrapper">
         <input
           type="text"
